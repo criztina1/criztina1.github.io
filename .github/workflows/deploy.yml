@@ -25,9 +25,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # 改成 22 满足 Quartz 的硬性要求
+          node-version: 22
       - name: Install Dependencies
-        run: npm ci
+        # 用 install 替代 ci，容错率更高
+        run: npm install
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
