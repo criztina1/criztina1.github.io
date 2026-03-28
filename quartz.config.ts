@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#f8f9fa", // 干净的灰白底色
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#49b1f5", // Butterfly 标志性的天蓝色
+          tertiary: "#ff7242", // 鼠标悬浮的橙红色
+          highlight: "rgba(73, 177, 245, 0.15)", // 选中文本的高亮色
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "#121212", // 纯粹的暗黑背景
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#99a9e8", // 暗黑模式下的柔和紫蓝色
+          tertiary: "#ff7242",
+          highlight: "rgba(153, 169, 232, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
