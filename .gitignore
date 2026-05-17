@@ -2,6 +2,7 @@
 .gitignore
 node_modules
 public
+quartz-preview
 prof
 tsconfig.tsbuildinfo
 .obsidian

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "MyBlog",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,32 +23,33 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        title: "Nunito Sans",
+        header: "Noto Sans SC",
+        body: "Noto Sans SC",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#f8f9fa", // 干净的灰白底色
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#49b1f5", // Butterfly 标志性的天蓝色
-          tertiary: "#ff7242", // 鼠标悬浮的橙红色
-          highlight: "rgba(73, 177, 245, 0.15)", // 选中文本的高亮色
-          textHighlight: "#fff23688",
+          light: "#f8f8f0", // Animal Island parchment background
+          lightgray: "#f0e8d8",
+          gray: "#9f927d",
+          darkgray: "#794f27",
+          dark: "#5d4037",
+          secondary: "#19c8b9",
+          tertiary: "#f5c31c",
+          highlight: "rgba(25, 200, 185, 0.16)",
+          textHighlight: "#f5c31c80",
         },
         darkMode: {
-          light: "#121212", // 纯粹的暗黑背景
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#99a9e8", // 暗黑模式下的柔和紫蓝色
-          tertiary: "#ff7242",
-          highlight: "rgba(153, 169, 232, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#241c15",
+          lightgray: "#3a3026",
+          gray: "#bdaea0",
+          darkgray: "#f3ead8",
+          dark: "#fff8e7",
+          secondary: "#50d8cd",
+          tertiary: "#f7cd67",
+          highlight: "rgba(80, 216, 205, 0.2)",
+          textHighlight: "#f7cd6766",
         },
       },
     },
@@ -89,7 +90,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }
