@@ -192,10 +192,10 @@ body::before {
 
 .article-title {
   color: var(--animal-brown);
-  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.05;
   margin-top: 0.4rem;
-  max-width: 13ch;
+  max-width: 100%;
   position: relative;
 }
 
