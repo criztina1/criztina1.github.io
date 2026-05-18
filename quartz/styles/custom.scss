@@ -136,6 +136,11 @@ body::before {
   gap: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0;
+}
+
+.page > #quartz-body .page-header {
+  margin-top: 0;
 }
 
 .center {
