@@ -278,7 +278,6 @@ a.internal.tag-link,
 
 .search > .search-button,
 button.darkmode,
-button.readermode,
 button.mobile-explorer,
 button.desktop-explorer {
   border: 2px solid color-mix(in srgb, var(--line) 80%, transparent);
@@ -294,7 +293,6 @@ button.desktop-explorer {
 
 .search > .search-button:hover,
 button.darkmode:hover,
-button.readermode:hover,
 button.mobile-explorer:hover,
 button.desktop-explorer:hover {
   border-color: var(--animal-teal);
@@ -302,14 +300,12 @@ button.desktop-explorer:hover {
   transform: translateY(-1px);
 }
 
-button.darkmode,
-button.readermode {
+button.darkmode {
   width: 2.25rem;
   height: 2.25rem;
 }
 
-.darkmode svg,
-.readermode svg {
+.darkmode svg {
   left: calc(50% - 10px);
 }
 
